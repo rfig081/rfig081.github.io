@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // import "./Layout.css";
-import Toolbar from "../components/Navigation/Toolbar";
+import Toolbar from "../components/Navigation/Toolbar/Toolbar";
 import ModalDrawer from "../components/Navigation/ModalDrawer";
 import Footer from "../components/Footer/Footer";
 

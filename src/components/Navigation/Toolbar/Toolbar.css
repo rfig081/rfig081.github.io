@@ -1,0 +1,26 @@
+header {
+  background: #55d6aa;
+  padding: 1em 2em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  background: red;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  margin-left: 2rem;
+}
