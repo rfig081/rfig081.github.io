@@ -1,0 +1,16 @@
+.about-section {
+  width: 100vw;
+  height: 92vh;
+  max-width: 100%;
+  background-color: crimson;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation {
+  height: 45rem;
+  width: 45rem;
+}
