@@ -1,11 +1,10 @@
 header {
-  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #55d6aa;
-  padding: 1em 2em;
-  height: 3em;
+  background: #117def;
+  color: white;
+  padding: 0 2em;
 }
 
 .logo {
@@ -16,15 +15,22 @@ header {
 }
 
 nav ul {
-  list-style-type: none;
   display: flex;
+  list-style-type: none;
   margin: 0;
 }
 
 nav li {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
-nav li a {
+nav a {
+  text-decoration: none;
   color: white;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }

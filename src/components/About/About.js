@@ -13,9 +13,7 @@ export class About extends Component {
             commodi excepturi vel est eum quis?
           </div>
         </div>
-        <object type="image/svg+xml" data={animation} className="animation">
-          <img src={animation} alt="" class="animation" />
-        </object>
+        <img src={animation} alt="" class="animation" />
       </section>
     );
   }

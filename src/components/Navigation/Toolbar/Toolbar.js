@@ -11,8 +11,9 @@ import "./Toolbar.css";
 export class Toolbar extends Component {
   render() {
     return (
-      <header>
-        <img src={logo} alt="" class="logo" />
+      <header className="sticky">
+        {/* <img src={logo} alt="" class="logo" /> */}
+        <h3>Reynold</h3>
         <nav>
           <ul>
             <li>
