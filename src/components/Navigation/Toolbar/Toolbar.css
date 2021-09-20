@@ -4,14 +4,12 @@ header {
   align-items: center;
   background: #117def;
   color: white;
-  padding: 0 2em;
+  padding: 0.5em 2em;
 }
 
-.logo {
+#logo {
   height: 2.5rem;
   width: 2.5rem;
-  transform: rotate(-20deg);
-  -ms-transform: rotate(-20deg);
 }
 
 nav ul {

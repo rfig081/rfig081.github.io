@@ -5,15 +5,15 @@ import {
   faLinkedin,
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from "../../../assets/keyboard.svg";
+import logo from "../../../assets/keyboard-wireless.svg";
 import "./Toolbar.css";
 
 export class Toolbar extends Component {
   render() {
     return (
       <header className="sticky">
-        {/* <img src={logo} alt="" class="logo" /> */}
-        <h3>Reynold</h3>
+        <img src={logo} alt="" id="logo" />
+        {/* <h3>Reynold</h3> */}
         <nav>
           <ul>
             <li>
