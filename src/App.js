@@ -1,11 +1,11 @@
 import Layout from "./layout/Layout";
-import About from "./components/About/About";
+import Greetings from "./components/Greetings/Greetings";
 
 function App() {
   return (
     <>
       <Layout>
-        <About />
+        <Greetings />
       </Layout>
     </>
   );
