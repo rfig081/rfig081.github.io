@@ -1,5 +1,8 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import animation from "../../assets/animation.svg";
+import pdf from "../../assets/cv.pdf";
 import "./Greetings.css";
 
 export class Greetings extends Component {
@@ -16,17 +19,18 @@ export class Greetings extends Component {
             laudantium perspiciatis? Soluta ea sint voluptate aspernatur
             pariatur magnam enim provident consectetur vel.
           </div>
-
-          <div className="about__tags">
-            <div className="tag-pill">Pill 1</div>
-            <div className="tag-pill">Pill 2</div>
-            <div className="tag-pill">Pill 3</div>
-            <div className="tag-pill">Pill 4</div>
-            <div className="tag-pill">Pill 5</div>
-            <div className="tag-pill">Pill 6</div>
+          <div class="about__tags">
+            <ul>
+              <li>Full Stack Developer</li>
+              <li>Mobile Developer</li>
+              <li>Open Source Contributor</li>
+            </ul>
           </div>
           <div className="about__cv">
-            <button>CV</button>
+            <a href={pdf} without target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} size="md" />
+              <span>See my CV</span>
+            </a>
           </div>
         </div>
         <div className="greetings__animation">

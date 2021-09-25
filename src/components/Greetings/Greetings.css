@@ -24,44 +24,80 @@
 }
 
 .about__text {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.25rem;
   font-size: 1.2rem;
-  background-color: red;
 }
 
 .about__tags {
-  width: 100%;
-  margin-bottom: 2rem;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  grid-template-rows: auto;
-  column-gap: 0.5rem;
-  row-gap: 0.2rem;
-  background-color: green;
+  margin-bottom: 1rem;
 }
 
-.tag-pill {
-  padding: 0.6rem;
-  border-radius: 6px;
+.about__tags ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+
+.about__tags li {
+  background-color: white;
+  border: 1px solid #999999;
+  border-radius: 0.25rem;
+  color: #999999;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 0 0.5rem;
   text-align: center;
-  background-color: #263238;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-transform: uppercase;
+  margin-right: 0.5rem;
 }
 
-.tag-pill:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+.about__tags li + li {
+  margin-bottom: 0.5rem;
 }
 
-.about__cv > button {
-  min-width: 10rem;
-  padding: 1rem;
+.about__tags li:hover {
+  color: #0a246d;
+  border-color: #0a246d;
+}
+
+.about__cv > a {
+  position: relative;
+  padding: 0.625rem 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  will-change: transform;
+  letter-spacing: 0.025em;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
+}
+
+.about__cv > a:hover {
+  color: #212529;
+  background-color: #ececec;
+  border-color: #e6e6e6;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+.about__cv > a span {
+  display: inline-block;
+  margin-left: 0.5rem;
 }
 
 .greetings__animation {
   height: 100%;
   width: 50vw;
-  /* background-color: green; */
   display: flex;
   justify-content: center;
   align-items: center;
