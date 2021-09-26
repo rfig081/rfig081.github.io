@@ -9,12 +9,13 @@ class Layout extends Component {
   };
 
   componentDidMount() {
-    document.addEventListener("mousemove", (e) => {
-      const logo = document.getElementById("logo");
-      let xy = [e.clientX, e.clientY];
-      let position = xy.concat([logo]);
-      this.transformElement(logo, position);
-    });
+    document.addEventListener("mousemove", this.logoAnimationHandler);
+    document.addEventListener("scroll", this.logoAnimationHandler);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("mousemove", this.logoAnimationHandler);
+    window.removeEventListener("scroll", this.logoAnimationHandler);
   }
 
   modalDrawerClosedHandler = () => {
@@ -25,6 +26,13 @@ class Layout extends Component {
     this.setState((prevState) => {
       return { showModalDrawer: !prevState.showModalDrawer };
     });
+  };
+
+  logoAnimationHandler = (e) => {
+    const logo = document.getElementById("logo");
+    let xy = [e.clientX, e.clientY];
+    let position = xy.concat([logo]);
+    this.transformElement(logo, position);
   };
 
   transforms(x, y, el) {
@@ -47,12 +55,14 @@ class Layout extends Component {
     el.style.transform = this.transforms.apply(null, xyEl);
   }
 
+  scrollHandler = (e) => {};
+
   render() {
     return (
       <>
         <Toolbar />
         {/* <ModalDrawer /> */}
-        <main className="Content">{this.props.children}</main>
+        <main>{this.props.children}</main>
         <Footer />
       </>
     );

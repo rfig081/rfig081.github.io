@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../../Animations.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import animation from "../../assets/animation.svg";
@@ -26,7 +27,7 @@ export class Greetings extends Component {
               <li>Open Source Contributor</li>
             </ul>
           </div>
-          <div className="about__cv">
+          <div className="about__cv pulse-animation">
             <a href={pdf} without target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFilePdf} size="md" />
               <span>See my CV</span>
