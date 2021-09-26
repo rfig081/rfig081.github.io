@@ -10,6 +10,10 @@
   );
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky;

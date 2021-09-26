@@ -10,8 +10,8 @@ class Layout extends Component {
   };
 
   componentDidMount() {
-    document.addEventListener("mousemove", this.logoAnimationHandler);
-    document.addEventListener("scroll", this.logoAnimationHandler);
+    // document.addEventListener("mousemove", this.logoAnimationHandler);
+    // document.addEventListener("scroll", this.logoAnimationHandler);
   }
 
   componentWillUnmount() {
