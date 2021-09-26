@@ -6,6 +6,7 @@ import Footer from "../components/Footer/Footer";
 class Layout extends Component {
   state = {
     showModalDrawer: false,
+    scrollPosition: 0,
   };
 
   componentDidMount() {
@@ -55,7 +56,18 @@ class Layout extends Component {
     el.style.transform = this.transforms.apply(null, xyEl);
   }
 
-  scrollHandler = (e) => {};
+  scrollHandler = (e) => {
+    console.log(e);
+    if (window.scrollY > this.state.scrollPosition) {
+      //? Downscroll
+      console.log(window.scrollY);
+    } else {
+      //? Upscroll
+    }
+
+    this.setState({ scrollPosition: window.scrollY <= 0 ? 0 : window.scrollY });
+    console.error(this.state.scrollPosition);
+  };
 
   render() {
     return (

@@ -20,7 +20,7 @@ export class Greetings extends Component {
             laudantium perspiciatis? Soluta ea sint voluptate aspernatur
             pariatur magnam enim provident consectetur vel.
           </div>
-          <div class="about__tags">
+          <div className="about__tags">
             <ul>
               <li>Full Stack Developer</li>
               <li>Mobile Developer</li>
@@ -28,14 +28,14 @@ export class Greetings extends Component {
             </ul>
           </div>
           <div className="about__cv pulse-animation">
-            <a href={pdf} without target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faFilePdf} size="md" />
+            <a href={pdf} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} size="sm" />
               <span>See my CV</span>
             </a>
           </div>
         </div>
         <div className="greetings__animation">
-          <img src={animation} alt="" class="animation" />
+          <img src={animation} alt="" className="animation" />
         </div>
       </section>
     );

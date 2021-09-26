@@ -22,7 +22,7 @@ export class Toolbar extends Component {
                 target="_blank"
                 rel="external noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} size="md" />
+                <FontAwesomeIcon icon={faGithub} size="sm" />
               </a>
             </li>
             <li>
@@ -31,7 +31,7 @@ export class Toolbar extends Component {
                 target="_blank"
                 rel="external noreferrer"
               >
-                <FontAwesomeIcon icon={faLinkedin} size="md" />
+                <FontAwesomeIcon icon={faLinkedin} size="sm" />
               </a>
             </li>
             <li>
@@ -40,7 +40,7 @@ export class Toolbar extends Component {
                 target="_blank"
                 rel="external noreferrer"
               >
-                <FontAwesomeIcon icon={faCodepen} size="md" />
+                <FontAwesomeIcon icon={faCodepen} size="sm" />
               </a>
             </li>
           </ul>
