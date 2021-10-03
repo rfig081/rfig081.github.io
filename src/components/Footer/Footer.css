@@ -3,8 +3,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  padding: 2rem 5rem;
+  height: 60vh;
+  padding: 4rem 5rem;
   background-color: var(--secondary-color);
 }
 
@@ -26,6 +26,7 @@ footer form {
 }
 
 input[type="text"],
+input[type="email"],
 select {
   width: 100%;
   padding: 12px 20px;
@@ -36,7 +37,8 @@ select {
   box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type="submit"],
+form > button {
   width: 100%;
   background-color: #4caf50;
   color: white;
@@ -47,10 +49,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
+input[type="submit"]:hover,
 form > button {
-  margin-top: 1rem;
+  background-color: #45a049;
 }
