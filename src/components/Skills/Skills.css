@@ -1,0 +1,9 @@
+.skillsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  padding: 4rem 5rem;
+  background-color: var(--secondary-color);
+}
