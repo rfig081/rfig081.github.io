@@ -1,10 +1,9 @@
 import "./Icon.css";
-import html5 from "../../assets/icons/html.svg";
 
-const Skill = ({ handleSubmit, buttonText }) => {
+const Skill = ({ iconText, iconImage }) => {
   return (
-    <div className="iconContainer">
-      <img src={html5} alt="" />
+    <div className="iconContainer" title={iconText}>
+      <img src={`/icons/${iconImage}.svg`} alt="" />
     </div>
   );
 };

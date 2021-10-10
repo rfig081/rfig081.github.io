@@ -1,6 +1,15 @@
 .iconContainer {
-  height: 10rem;
-  width: 10rem;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
-  background-color: black;
+  padding: 15px;
+  margin: 0 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.iconContainer > img {
+  display: block;
+  height: 100%;
+  margin: auto;
+  max-width: 100%;
 }
