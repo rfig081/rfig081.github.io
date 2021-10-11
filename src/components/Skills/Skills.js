@@ -10,22 +10,24 @@ class Skills extends Component {
       { title: "HTML", icon: "html" },
       { title: "CSS", icon: "css3" },
       { title: "Javascript", icon: "javascript" },
-      { title: "AWS", icon: "amazon-aws" },
+      { title: "VueJS", icon: "vuejs" },
+      { title: "ReactJS", icon: "react" },
       { title: "Electron", icon: "electron" },
-      { title: "Firebase", icon: "firebase" },
+      { title: "Dart", icon: "dart" },
       { title: "Flutter", icon: "flutter" },
-      { title: "Git", icon: "git" },
-      { title: "Jenkins", icon: "jenkins" },
+      { title: "Python", icon: "python" },
+      { title: "C#", icon: "csharp" },
+      { title: "SQL", icon: "sql" },
       { title: "MongoDB", icon: "mongodb" },
       { title: "NodeJS", icon: "node-js" },
-      { title: "NPM", icon: "npm" },
-      { title: "Python", icon: "python" },
-      { title: "ReactJS", icon: "react" },
       { title: "SASS", icon: "sass" },
-      { title: "SQL", icon: "sql" },
-      { title: "TravisCI", icon: "travis" },
-      { title: "VueJS", icon: "vuejs" },
-      { title: "Yarn", icon: "yarn" },
+      { title: "Git", icon: "git" },
+      { title: "AWS", icon: "amazon-aws" },
+      { title: "Firebase", icon: "firebase" },
+      // { title: "NPM", icon: "npm" },
+      // { title: "Yarn", icon: "yarn" },
+      // { title: "TravisCI", icon: "travis" },
+      { title: "Jenkins", icon: "jenkins" },
     ];
   }
 
@@ -34,7 +36,14 @@ class Skills extends Component {
       <Icon key={skill.title} iconText={skill.title} iconImage={skill.icon} />
     ));
 
-    return <section className="skillsSection">{icons}</section>;
+    return (
+      <section className="skillsSection">
+        <header>
+          <h1>Skills</h1>
+        </header>
+        <div>{icons}</div>
+      </section>
+    );
   }
 }
 

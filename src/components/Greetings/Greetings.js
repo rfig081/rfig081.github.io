@@ -11,14 +11,12 @@ export class Greetings extends Component {
     return (
       <section className="greetings">
         <div className="greetings__about">
-          <div className="about__welcome">Hello, Im Reynold</div>
+          <div className="about__welcome">Hello, I'm Reynold</div>
           <div className="about__text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
-            possimus tempora quasi nobis delectus amet explicabo, iure ad fugiat
-            exercitationem. Harum odio deleniti sit, quis amet explicabo
-            consequuntur a ab facere voluptas iure sed, libero, adipisci quae
-            laudantium perspiciatis? Soluta ea sint voluptate aspernatur
-            pariatur magnam enim provident consectetur vel.
+            A Full Stack Developer and Mobile App Developer having experience in
+            building Web applications with JavaScript | VueJS | ReactJS | Flask
+            | .NET and other frameworks, Cross Platform Desktop Applications
+            with Electron and Cross Platform Mobile Applications with Flutter.
           </div>
           <div className="about__tags">
             <ul>

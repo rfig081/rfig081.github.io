@@ -1,4 +1,4 @@
-header {
+.toolbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,17 +13,17 @@ header {
   width: 2.5rem;
 }
 
-nav ul {
+.toolbar nav ul {
   display: flex;
   list-style-type: none;
   margin: 0;
 }
 
-nav li {
+.toolbar nav li {
   margin-left: 1.5rem;
 }
 
-nav a {
+.toolbar nav a {
   text-decoration: none;
   color: white;
 }
