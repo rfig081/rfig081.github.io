@@ -20,14 +20,15 @@ class Skills extends Component {
       { title: "SQL", icon: "sql" },
       { title: "MongoDB", icon: "mongodb" },
       { title: "NodeJS", icon: "node-js" },
-      { title: "SASS", icon: "sass" },
+      // { title: "SASS", icon: "sass" },
       { title: "Git", icon: "git" },
       { title: "AWS", icon: "amazon-aws" },
       { title: "Firebase", icon: "firebase" },
-      // { title: "NPM", icon: "npm" },
-      // { title: "Yarn", icon: "yarn" },
+
+      { title: "NPM", icon: "npm" },
+      { title: "Yarn", icon: "yarn" },
       // { title: "TravisCI", icon: "travis" },
-      { title: "Jenkins", icon: "jenkins" },
+      // { title: "Jenkins", icon: "jenkins" },
     ];
   }
 
@@ -37,7 +38,7 @@ class Skills extends Component {
     ));
 
     return (
-      <section className="skillsSection">
+      <section className="skills">
         <header>
           <h1>Skills</h1>
         </header>

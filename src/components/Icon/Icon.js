@@ -1,6 +1,6 @@
 import "./Icon.css";
 
-const Skill = ({ iconText, iconImage }) => {
+const Icon = ({ iconText, iconImage }) => {
   return (
     <div className="iconContainer" title={iconText}>
       <img src={`/icons/${iconImage}.svg`} alt="" />
@@ -8,4 +8,4 @@ const Skill = ({ iconText, iconImage }) => {
   );
 };
 
-export default Skill;
+export default Icon;

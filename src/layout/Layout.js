@@ -15,8 +15,8 @@ class Layout extends Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener("mousemove", this.logoAnimationHandler);
-    window.removeEventListener("scroll", this.logoAnimationHandler);
+    // window.removeEventListener("mousemove", this.logoAnimationHandler);
+    // window.removeEventListener("scroll", this.logoAnimationHandler);
   }
 
   modalDrawerClosedHandler = () => {
