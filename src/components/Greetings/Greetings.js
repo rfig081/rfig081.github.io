@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "../../Animations.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import animation from "../../assets/animation.svg";
 import pdf from "../../assets/cv.pdf";
 import "./Greetings.css";
+import "../../Animations.css";
 
 export class Greetings extends Component {
   render() {

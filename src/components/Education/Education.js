@@ -10,26 +10,31 @@ class Education extends Component {
     this.educationData = [
       {
         key: 1,
-        institution:
-          "Interamerican University of Puerto Rico, Ponce Campus (UIPRP)",
+        institution: "Interamerican University of Puerto Rico",
         from: "August 2013",
         to: "May 2018",
-        location: "Ponce, PR",
         degree: "Bachelor Degree in Computer Science",
-        minorDegree: "Minor Degree in Network & Telecommunications",
-        gpa: 3.87,
-        gpaDescription: "SUMMA CUM LAUDE",
+        highlights: [
+          {
+            key: 1,
+            data: "Founder & President of Asociación de Investigación Informática",
+          },
+          { key: 2, data: "Vice President of ABACUS" },
+        ],
       },
       {
         key: 2,
-        institution: "Luis Llorens Torres / High School",
-        from: "August 2011",
-        to: "May 2013",
-        location: "Juana Díaz, PR",
-        degree: "Electronics",
-        minorDegree: null,
-        gpa: 4.0,
-        gpaDescription: null,
+        institution: "Interamerican University of Puerto Rico",
+        from: "August 2013",
+        to: "May 2018",
+        degree: "Minor Degree in Network & Telecommunications",
+        highlights: [
+          {
+            key: 1,
+            data: "Founder & President of Asociación de Investigación Informática",
+          },
+          { key: 2, data: "Vice President of ABACUS" },
+        ],
       },
     ];
   }
@@ -41,11 +46,8 @@ class Education extends Component {
         institution={data.institution}
         from={data.from}
         to={data.to}
-        location={data.location}
         degree={data.degree}
-        minorDegree={data.minorDegree}
-        gpa={data.gpa}
-        gpaDescription={data.gpaDescription}
+        highlights={data.highlights}
       />
     ));
 

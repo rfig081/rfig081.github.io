@@ -23,6 +23,7 @@
   grid-template-columns: repeat(2, 90px);
   grid-auto-rows: 90px;
   gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
