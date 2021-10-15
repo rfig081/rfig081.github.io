@@ -4,15 +4,20 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 4rem 5rem;
-  background-color: var(--secondary-color);
+  background-color: var(--main-color);
+  color: white;
 }
 
-footer > h2 {
+footer > header {
+  width: 40vw;
+}
+
+footer > header h1 {
   text-align: left;
-  margin-top: 0;
+  font-size: 2rem;
 }
 
-.container > div {
+footer > div {
   width: 40vw;
   border-radius: 5px;
   background-color: #f2f2f2;

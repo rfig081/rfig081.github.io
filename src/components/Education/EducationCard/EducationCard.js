@@ -3,6 +3,7 @@ import "./EducationCard.css";
 import "../../../Animations.css";
 
 class EducationCard extends Component {
+  //TODO FIX ANIMATION
   constructor(props) {
     super(props);
     console.log(props);
@@ -36,8 +37,8 @@ class EducationCard extends Component {
             ? "education-card slide-fwd-center"
             : "education-card"
         }
-        onMouseEnter={this.hoverOn}
-        onMouseLeave={this.hoverOff}
+        // onMouseEnter={this.hoverOn}
+        // onMouseLeave={this.hoverOff}
       >
         <h3>{this.state.institution}</h3>
         <p>{this.state.degree}</p>
