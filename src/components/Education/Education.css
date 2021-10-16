@@ -4,7 +4,6 @@
   align-items: center;
   padding: 4rem 5rem;
   background-color: var(--secondary-color);
-  /* color: white; */
 }
 
 .education > header {
@@ -26,8 +25,8 @@
   justify-content: center;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
   .education > div {
     display: flex;
     flex-direction: row;
