@@ -12,11 +12,11 @@ export class Toolbar extends Component {
   render() {
     return (
       <header className="sticky toolbar">
-        <img src={logo} alt="" id="logo" />
+        <img src={logo} alt="" id="logo" title="Home" />
         {/* <h3>Reynold</h3> */}
         <nav>
           <ul>
-            <li>
+            <li title="Github">
               <a
                 href="https://github.com/rfig081"
                 target="_blank"
@@ -25,7 +25,7 @@ export class Toolbar extends Component {
                 <FontAwesomeIcon icon={faGithub} size="sm" />
               </a>
             </li>
-            <li>
+            <li title="Linkedin">
               <a
                 href="https://www.linkedin.com/in/reynold-figueroa-36772a129/"
                 target="_blank"
@@ -34,7 +34,7 @@ export class Toolbar extends Component {
                 <FontAwesomeIcon icon={faLinkedin} size="sm" />
               </a>
             </li>
-            <li>
+            <li title="Codepen">
               <a
                 href="https://codepen.io/rfig081"
                 target="_blank"
