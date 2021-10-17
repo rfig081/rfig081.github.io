@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Toolbar from "../components/Navigation/Toolbar/Toolbar";
-import ModalDrawer from "../components/Navigation/ModalDrawer";
+import ModalDrawer from "../components/Navigation/Drawer/ModalDrawer";
 import Footer from "../components/Footer/Footer";
 
 class Layout extends Component {
@@ -75,7 +75,7 @@ class Layout extends Component {
         <Toolbar />
         {/* <ModalDrawer /> */}
         <main>{this.props.children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </>
     );
   }
