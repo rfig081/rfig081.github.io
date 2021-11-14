@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc332404.chunk.css",
-    "main.js": "/static/js/main.17bde43b.chunk.js",
-    "main.js.map": "/static/js/main.17bde43b.chunk.js.map",
+    "main.css": "/static/css/main.a050af60.chunk.css",
+    "main.js": "/static/js/main.91e8ca87.chunk.js",
+    "main.js.map": "/static/js/main.91e8ca87.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dec7144a.js",
     "runtime-main.js.map": "/static/js/runtime-main.dec7144a.js.map",
     "static/js/2.0437e52a.chunk.js": "/static/js/2.0437e52a.chunk.js",
@@ -10,16 +10,16 @@
     "static/js/3.ae2c7ba6.chunk.js": "/static/js/3.ae2c7ba6.chunk.js",
     "static/js/3.ae2c7ba6.chunk.js.map": "/static/js/3.ae2c7ba6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.dc332404.chunk.css.map": "/static/css/main.dc332404.chunk.css.map",
+    "static/css/main.a050af60.chunk.css.map": "/static/css/main.a050af60.chunk.css.map",
     "static/js/2.0437e52a.chunk.js.LICENSE.txt": "/static/js/2.0437e52a.chunk.js.LICENSE.txt",
-    "static/media/animation.313e7aa8.svg": "/static/media/animation.313e7aa8.svg",
+    "static/media/animation.c3c0acbd.svg": "/static/media/animation.c3c0acbd.svg",
     "static/media/cv.bf1ca099.pdf": "/static/media/cv.bf1ca099.pdf",
     "static/media/keyboard-wireless.09d8de6e.svg": "/static/media/keyboard-wireless.09d8de6e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dec7144a.js",
     "static/js/2.0437e52a.chunk.js",
-    "static/css/main.dc332404.chunk.css",
-    "static/js/main.17bde43b.chunk.js"
+    "static/css/main.a050af60.chunk.css",
+    "static/js/main.91e8ca87.chunk.js"
   ]
 }
