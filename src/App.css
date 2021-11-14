@@ -13,13 +13,3 @@
 * {
   box-sizing: border-box;
 }
-
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.scrolled {
-  background-color: var(--main-color-darker);
-}

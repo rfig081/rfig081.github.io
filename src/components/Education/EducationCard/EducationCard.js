@@ -14,8 +14,8 @@ class EducationCard extends Component {
   }
 
   render() {
-    const highlightsList = this.state.highlights?.map((highlight) => (
-      <li key={highlight.key}>- {highlight.data}</li>
+    const highlightsList = this.state.highlights?.map((highlight, index) => (
+      <li key={index}>- {highlight}</li>
     ));
 
     return (

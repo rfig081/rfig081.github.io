@@ -4,13 +4,19 @@
   align-items: center;
   background-color: var(--main-color);
   color: white;
-  padding: 0.5em 2em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px 25px;
   z-index: 2;
+  transition: top 0.3s, background-color 0.3s;
 }
 
 #logo {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 40px;
+  width: 40px;
 }
 
 .toolbar nav ul {
@@ -23,7 +29,19 @@
   margin-left: 1.5rem;
 }
 
+.toolbar nav li:hover {
+  filter: brightness(80%);
+}
+
 .toolbar nav a {
   text-decoration: none;
   color: white;
+}
+
+.toolbar--hidden {
+  top: -50px !important;
+}
+
+.toolbar--scrolled {
+  background-color: var(--main-color-darker) !important;
 }

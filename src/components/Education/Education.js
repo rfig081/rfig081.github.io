@@ -9,40 +9,32 @@ class Education extends Component {
 
     this.educationData = [
       {
-        key: 1,
         institution: "Interamerican University of Puerto Rico",
         from: "August 2013",
         to: "May 2018",
         degree: "Bachelor Degree in Computer Science",
         highlights: [
-          {
-            key: 1,
-            data: "Founder & President of Asociación de Investigación Informática",
-          },
-          { key: 2, data: "Vice President of ABACUS" },
+          "Founder & President of Asociación de Investigación Informática",
+          "Vice President of ABACUS",
         ],
       },
       {
-        key: 2,
         institution: "Interamerican University of Puerto Rico",
         from: "August 2013",
         to: "May 2018",
         degree: "Minor Degree in Network & Telecommunications",
         highlights: [
-          {
-            key: 1,
-            data: "Founder & President of Asociación de Investigación Informática",
-          },
-          { key: 2, data: "Vice President of ABACUS" },
+          "Founder & President of Asociación de Investigación Informática",
+          "Vice President of ABACUS",
         ],
       },
     ];
   }
 
   render() {
-    const cards = this.educationData.map((data) => (
+    const cards = this.educationData.map((data, index) => (
       <EducationCard
-        key={data.key}
+        key={index}
         institution={data.institution}
         from={data.from}
         to={data.to}

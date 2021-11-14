@@ -33,8 +33,8 @@ class Skills extends Component {
   }
 
   render() {
-    const icons = this.skillsToDisplay.map((skill) => (
-      <Icon key={skill.title} iconText={skill.title} iconImage={skill.icon} />
+    const icons = this.skillsToDisplay.map((skill, index) => (
+      <Icon key={index} iconText={skill.title} iconImage={skill.icon} />
     ));
 
     return (

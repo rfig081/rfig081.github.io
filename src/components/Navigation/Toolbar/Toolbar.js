@@ -11,7 +11,7 @@ import "./Toolbar.css";
 export class Toolbar extends Component {
   render() {
     return (
-      <header className="sticky toolbar">
+      <header id="toolbar" className="toolbar">
         <img src={logo} alt="" id="logo" title="Home" />
         {/* <h3>Reynold</h3> */}
         <nav>
@@ -22,7 +22,7 @@ export class Toolbar extends Component {
                 target="_blank"
                 rel="external noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} size="sm" />
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
             <li title="Linkedin">
@@ -31,7 +31,7 @@ export class Toolbar extends Component {
                 target="_blank"
                 rel="external noreferrer"
               >
-                <FontAwesomeIcon icon={faLinkedin} size="sm" />
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </li>
             <li title="Codepen">
@@ -40,7 +40,7 @@ export class Toolbar extends Component {
                 target="_blank"
                 rel="external noreferrer"
               >
-                <FontAwesomeIcon icon={faCodepen} size="sm" />
+                <FontAwesomeIcon icon={faCodepen} />
               </a>
             </li>
           </ul>
