@@ -7,10 +7,6 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-/* .iconContainer:not(:first-child) {
-  margin-left: 1rem;
-} */
-
 .iconContainer > img {
   display: block;
   height: 100%;

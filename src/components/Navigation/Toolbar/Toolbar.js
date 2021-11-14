@@ -9,11 +9,20 @@ import logo from "../../../assets/keyboard-wireless.svg";
 import "./Toolbar.css";
 
 export class Toolbar extends Component {
+  scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   render() {
     return (
       <header id="toolbar" className="toolbar">
-        <img src={logo} alt="" id="logo" title="Home" />
-        {/* <h3>Reynold</h3> */}
+        <img
+          src={logo}
+          alt=""
+          id="logo"
+          title="Home"
+          onClick={this.scrollToTop}
+        />
         <nav>
           <ul>
             <li title="Github">

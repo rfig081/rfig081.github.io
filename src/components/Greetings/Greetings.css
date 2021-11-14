@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 80vh;
+  height: calc(90vh + 50px);
 }
 
 .about__welcome {
@@ -104,55 +104,45 @@
 }
 
 .animation {
-  height: 25rem;
-  width: 25rem;
+  height: 100%;
+  width: 100%;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .greetings__about {
-    height: 75vh;
-  }
-
-  .greetings__animation {
-    align-items: flex-start;
-    height: 70vh;
-  }
-
-  .animation {
-    height: 35rem;
-    width: 35rem;
+    height: calc(70vh + 50px);
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .greetings {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  }
-
-  .greetings__about {
-    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .greetings__animation {
-    align-items: center;
-    height: 100vh;
-  }
-
-  .animation {
-    height: 28rem;
-    width: 28rem;
+    height: calc(70vh + 50px);
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .greetings {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  .greetings__about {
+    height: calc(100vh + 50px);
   }
-  .animation {
-    height: 40rem;
-    width: 40rem;
+
+  .greetings__animation {
+    height: calc(100vh + 50px);
+  }
+}
+
+/* Resolves landscape issue on phones */
+@media only screen and (max-height: 600px) {
+  .greetings__about {
+    height: calc(100vh + 50px);
+  }
+
+  .greetings__animation {
+    height: 100vh;
   }
 }

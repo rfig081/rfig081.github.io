@@ -14,12 +14,12 @@ class Layout extends Component {
 
   componentDidMount() {
     window.addEventListener("scroll", this.scrollHandler);
-    // document.addEventListener("mousemove", this.logoAnimationHandler);
+    document.addEventListener("mousemove", this.logoAnimationHandler);
   }
 
   componentWillUnmount() {
     window.removeEventListener("scroll", this.scrollHandler);
-    // window.removeEventListener("mousemove", this.logoAnimationHandler);
+    window.removeEventListener("mousemove", this.logoAnimationHandler);
   }
 
   scrollHandler = (_) => {

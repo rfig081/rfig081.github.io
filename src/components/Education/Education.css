@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 5rem;
+  padding: 1rem;
   background-color: var(--secondary-color);
 }
 
@@ -25,10 +25,16 @@
   justify-content: center;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .education {
+    padding: 4rem 5rem;
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .education > div {
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
